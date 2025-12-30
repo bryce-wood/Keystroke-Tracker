@@ -110,12 +110,15 @@ bool ProcessEvent(int eventType, int vkey, int makeCode, int e0, int e1)
 {
     var keyId = PhysicalKeyId(makeCode, e0, e1);
 
-    if (eventType == EventDown) {
+    if (eventType == EventDown)
+    {
         var isRepeat = downKeys.Contains(keyId);
         Console.WriteLine($"DOWN {keyId} vkey=0x{vkey:X} repeat={isRepeat}");
         downKeys.Add(keyId);
         return isRepeat;
-    } else {
+    }
+    else
+    {
         Console.WriteLine($"UP   {keyId} vkey=0x{vkey:X}");
         downKeys.Remove(keyId);
         return false;
