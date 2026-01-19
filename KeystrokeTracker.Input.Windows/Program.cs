@@ -38,16 +38,14 @@ namespace KeystrokeTracker.Input.Windows
         private static long UtcUsNow() => DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() * 1000;
         private static string PhysicalKeyId(int makeCode, int e0, int e1) => $"{makeCode:X2}:{e0}:{e1}";
 
-        private static readonly string LogPath =
-            Path.Combine(AppContext.BaseDirectory, "kt_debug.log");
+        private static readonly string LogPath = Path.Combine(AppContext.BaseDirectory, "kt_debug.log");
 
-        private static void Log(string msg)
-        {
-            var line = $"{DateTime.Now:HH:mm:ss.fff} {msg}";
-            Debug.WriteLine(line);
-            try { File.AppendAllText(LogPath, line + Environment.NewLine); }
-            catch { /* ignore logging failures */ }
-        }
+        private const int MOD_SHIFT = 1 << 0; // 1
+        private const int MOD_CTRL = 1 << 1; // 2
+        private const int MOD_ALT = 1 << 2; // 4
+        private const int MOD_WIN = 1 << 3; // 8
+
+        private int _modifiersMask = 0;
 
         public RawInputForm()
         {
@@ -213,6 +211,9 @@ namespace KeystrokeTracker.Input.Windows
                         int e0i = e0 ? 1 : 0;
                         int e1i = e1 ? 1 : 0;
 
+                        // Update modifiers mask
+                        UpdateModifiersMask(vkey, makeCode, e0, isUp);
+
                         // Repeat detection: a DOWN is repeat if key is already down
                         bool isRepeat = false;
                         var keyId = PhysicalKeyId(makeCode, e0i, e1i);
@@ -231,7 +232,8 @@ namespace KeystrokeTracker.Input.Windows
                         Log(
                             $"{(isUp ? "UP  " : "DOWN")} " +
                             $"VKey=0x{vkey:X} MakeCode=0x{makeCode:X} E0={e0i} E1={e1i} " +
-                            $"Repeat={(isRepeat ? 1 : 0)} Device=0x{header.hDevice.ToInt64():X}"
+                            $"Repeat={(isRepeat ? 1 : 0)} Device=0x{header.hDevice.ToInt64():X} " +
+                            $"Mods={_modifiersMask}"
                         );
 
                         // Insert into SQLite
@@ -256,7 +258,7 @@ namespace KeystrokeTracker.Input.Windows
                             cmd.Parameters.AddWithValue("$make_code", makeCode);
                             cmd.Parameters.AddWithValue("$e0", e0i);
                             cmd.Parameters.AddWithValue("$e1", e1i);
-                            cmd.Parameters.AddWithValue("$modifiers_mask", 0);           // next step
+                            cmd.Parameters.AddWithValue("$modifiers_mask", _modifiersMask);
                             cmd.Parameters.AddWithValue("$is_repeat", isRepeat ? 1 : 0);
 
                             cmd.ExecuteNonQuery();
@@ -278,6 +280,51 @@ namespace KeystrokeTracker.Input.Windows
             _db?.Dispose();
             base.OnFormClosed(e);
         }
+
+        private void UpdateModifiersMask(int vkey, int makeCode, bool e0, bool isUp)
+        {
+            bool isDown = !isUp;
+
+            // ---- SHIFT ----
+            // Raw Input often reports VK_SHIFT (0x10) instead of L/R. Use makeCode 0x2A/0x36 to distinguish.
+            if (vkey == 0x10 || vkey == 0xA0 || vkey == 0xA1) // VK_SHIFT / VK_LSHIFT / VK_RSHIFT
+            {
+                _modifiersMask = isDown ? (_modifiersMask | MOD_SHIFT) : (_modifiersMask & ~MOD_SHIFT);
+                return;
+            }
+
+            // ---- CTRL ----
+            // Right Ctrl is usually E0 + VK_CONTROL (0x11)
+            if (vkey == 0x11 || vkey == 0xA2 || vkey == 0xA3) // VK_CONTROL / VK_LCONTROL / VK_RCONTROL
+            {
+                _modifiersMask = isDown ? (_modifiersMask | MOD_CTRL) : (_modifiersMask & ~MOD_CTRL);
+                return;
+            }
+
+            // ---- ALT ----
+            // Right Alt (AltGr) is often E0 + VK_MENU (0x12)
+            if (vkey == 0x12 || vkey == 0xA4 || vkey == 0xA5) // VK_MENU / VK_LMENU / VK_RMENU
+            {
+                _modifiersMask = isDown ? (_modifiersMask | MOD_ALT) : (_modifiersMask & ~MOD_ALT);
+                return;
+            }
+
+            // ---- WIN ----
+            if (vkey == 0x5B || vkey == 0x5C) // VK_LWIN / VK_RWIN
+            {
+                _modifiersMask = isDown ? (_modifiersMask | MOD_WIN) : (_modifiersMask & ~MOD_WIN);
+                return;
+            }
+        }
+
+        private static void Log(string msg)
+        {
+            var line = $"{DateTime.Now:HH:mm:ss.fff} {msg}";
+            Debug.WriteLine(line);
+            try { File.AppendAllText(LogPath, line + Environment.NewLine); }
+            catch { /* ignore logging failures */ }
+        }
+
 
         // ---------- P/Invoke structs + enums ----------
 
