@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeystrokeTracker.Input.Windows")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb70650a038bf2d4024c6932eec41ae220e51f74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d79a5f41e9d054ad52bc373361027df906a889ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeystrokeTracker.Input.Windows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeystrokeTracker.Input.Windows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

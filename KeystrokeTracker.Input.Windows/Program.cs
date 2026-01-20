@@ -14,6 +14,8 @@ namespace KeystrokeTracker.Input.Windows
         static void Main()
         {
             ApplicationConfiguration.Initialize();
+            // can't reliably touch UI here, but good for last-chance logging
+            Debug.WriteLine("[PROCESS] ProcessExit fired");
             Application.Run(new RawInputForm());
         }
     }
@@ -87,7 +89,13 @@ namespace KeystrokeTracker.Input.Windows
             Log("[RAW] RegisterRawInputDevices OK");
 
             // 2) Open SQLite DB + create schema + create a session
-            var dbPath = Path.Combine(AppContext.BaseDirectory, "keystroke_tracker.sqlite");
+            var appDir = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "KeystrokeTracker");
+
+            Directory.CreateDirectory(appDir);
+
+            var dbPath = Path.Combine(appDir, "keystroke_tracker.sqlite");
             Log($"[DB] Path = {dbPath}");
 
             var cs = new SqliteConnectionStringBuilder { DataSource = dbPath }.ToString();
@@ -99,7 +107,8 @@ namespace KeystrokeTracker.Input.Windows
                 cmd.CommandText = """
                 CREATE TABLE IF NOT EXISTS sessions (
                   session_id        INTEGER PRIMARY KEY,
-                  started_utc_us    INTEGER NOT NULL
+                  started_utc_us    INTEGER NOT NULL,
+                  ended_utc_us      INTEGER
                 );
                 
                 CREATE TABLE IF NOT EXISTS devices (
@@ -285,6 +294,14 @@ namespace KeystrokeTracker.Input.Windows
 
                             cmd.ExecuteNonQuery();
                         }
+
+                        // Ctrl + Shift + Q to quit cleanly
+                        if (!isUp && vkey == 0x51 && (_modifiersMask & (MOD_CTRL | MOD_SHIFT)) == (MOD_CTRL | MOD_SHIFT))
+                        {
+                            Log("[HOTKEY] Ctrl+Shift+Q -> closing");
+                            BeginInvoke(new Action(Close));
+                            return;
+                        }
                     }
                 }
                 finally
@@ -299,6 +316,25 @@ namespace KeystrokeTracker.Input.Windows
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
             Log("[EXIT] Form closing, disposing DB");
+            try
+            {
+                if (_db != null && _sessionId != 0)
+                {
+                    using var cmd = _db.CreateCommand();
+                    cmd.CommandText = """
+                    UPDATE sessions
+                    SET ended_utc_us = $ended
+                    WHERE session_id = $sid;
+                    """;
+                    cmd.Parameters.AddWithValue("$ended", UtcUsNow());
+                    cmd.Parameters.AddWithValue("$sid", _sessionId);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Log("[EXIT] Failed to set ended_utc_us: " + ex.Message);
+            }
             _db?.Dispose();
             base.OnFormClosed(e);
         }
@@ -373,7 +409,7 @@ namespace KeystrokeTracker.Input.Windows
                     return $"hDevice=0x{hDevice.ToInt64():X}";
 
                 // Device name is a null-terminated Unicode string
-                return Marshal.PtrToStringUni(buf) ?? $"hDevice=0x{hDevice.ToInt64():X}";
+                return Marshal.PtrToStringAnsi(buf) ?? $"hDevice=0x{hDevice.ToInt64():X}";
             }
             finally
             {
