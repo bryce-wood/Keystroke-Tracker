@@ -1,0 +1,1554 @@
+18:58:02.604 [CTOR] RawInputForm constructed
+18:58:02.623 [HANDLE] Created. Handle=0x2C0DF2
+18:58:02.625 [RAW] RegisterRawInputDevices OK
+18:58:02.626 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+18:58:02.668 [DB] Opened OK session_id=1
+18:58:02.669 [DB] File exists? True
+19:08:02.086 [CTOR] RawInputForm constructed
+19:08:02.105 [HANDLE] Created. Handle=0x1F90FA0
+19:08:02.107 [RAW] RegisterRawInputDevices OK
+19:08:02.107 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+19:08:02.180 [DB] Opened OK session_id=2
+19:08:02.181 [DB] File exists? True
+19:08:04.374 [WM_INPUT] message arrived
+19:08:04.376 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:04.472 [WM_INPUT] message arrived
+19:08:04.473 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:15.653 [WM_INPUT] message arrived
+19:08:15.654 DOWN VKey=0x59 MakeCode=0x15 E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:15.700 [WM_INPUT] message arrived
+19:08:15.701 DOWN VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:15.724 [WM_INPUT] message arrived
+19:08:15.725 UP   VKey=0x59 MakeCode=0x15 E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:15.737 [WM_INPUT] message arrived
+19:08:15.738 DOWN VKey=0x53 MakeCode=0x1F E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:15.771 [WM_INPUT] message arrived
+19:08:15.772 UP   VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:15.866 [WM_INPUT] message arrived
+19:08:15.867 UP   VKey=0x53 MakeCode=0x1F E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:17.634 [WM_INPUT] message arrived
+19:08:17.635 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:17.772 [WM_INPUT] message arrived
+19:08:17.773 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:28.471 [WM_INPUT] message arrived
+19:08:28.473 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:28.499 [WM_INPUT] message arrived
+19:08:28.501 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:28.614 [WM_INPUT] message arrived
+19:08:28.616 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:28.672 [WM_INPUT] message arrived
+19:08:28.674 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:28.769 [WM_INPUT] message arrived
+19:08:28.771 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:28.826 [WM_INPUT] message arrived
+19:08:28.828 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:31.438 [WM_INPUT] message arrived
+19:08:31.439 DOWN VKey=0x5A MakeCode=0x2C E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:31.459 [WM_INPUT] message arrived
+19:08:31.460 DOWN VKey=0x58 MakeCode=0x2D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:31.503 [WM_INPUT] message arrived
+19:08:31.504 DOWN VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:31.516 [WM_INPUT] message arrived
+19:08:31.517 UP   VKey=0x5A MakeCode=0x2C E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:31.536 [WM_INPUT] message arrived
+19:08:31.537 UP   VKey=0x58 MakeCode=0x2D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:31.572 [WM_INPUT] message arrived
+19:08:31.573 UP   VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:34.086 [WM_INPUT] message arrived
+19:08:34.087 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:34.265 [WM_INPUT] message arrived
+19:08:34.266 DOWN VKey=0x41 MakeCode=0x1E E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:34.375 [WM_INPUT] message arrived
+19:08:34.376 UP   VKey=0x41 MakeCode=0x1E E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:34.680 [WM_INPUT] message arrived
+19:08:34.681 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:35.030 [WM_INPUT] message arrived
+19:08:35.031 DOWN VKey=0x8 MakeCode=0xE E0=0 E1=0 Repeat=0 Device=0x10063
+19:08:35.226 [WM_INPUT] message arrived
+19:08:35.227 UP   VKey=0x8 MakeCode=0xE E0=0 E1=0 Repeat=0 Device=0x10063
+19:10:51.085 [CTOR] RawInputForm constructed
+19:10:51.103 [HANDLE] Created. Handle=0x170FC6
+19:10:51.105 [RAW] RegisterRawInputDevices OK
+19:10:51.106 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+19:10:51.144 [DB] Opened OK session_id=3
+19:10:51.145 [DB] File exists? True
+19:10:55.093 [WM_INPUT] message arrived
+19:10:55.095 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:55.096 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:55.097 DOWN VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=0 Device=0x10063
+19:10:55.166 [WM_INPUT] message arrived
+19:10:55.167 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:55.168 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:55.170 UP   VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=0 Device=0x10063
+19:10:58.954 [WM_INPUT] message arrived
+19:10:58.955 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:58.956 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:58.957 DOWN VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=0 Device=0x10063
+19:10:59.461 [WM_INPUT] message arrived
+19:10:59.463 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:59.464 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:59.465 DOWN VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=1 Device=0x10063
+19:10:59.493 [WM_INPUT] message arrived
+19:10:59.494 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:59.495 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:59.497 DOWN VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=1 Device=0x10063
+19:10:59.525 [WM_INPUT] message arrived
+19:10:59.527 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:59.528 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:59.529 DOWN VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=1 Device=0x10063
+19:10:59.546 [WM_INPUT] message arrived
+19:10:59.548 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:59.549 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:59.550 UP   VKey=0x25 MakeCode=0x4B E0=1 E1=0 Repeat=0 Device=0x10063
+19:11:09.351 [WM_INPUT] message arrived
+19:11:09.353 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:09.354 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:09.356 DOWN VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063
+19:11:09.436 [WM_INPUT] message arrived
+19:11:09.437 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:09.438 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:09.440 UP   VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063
+19:11:10.479 [WM_INPUT] message arrived
+19:11:10.480 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:10.481 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:10.482 DOWN VKey=0x28 MakeCode=0x50 E0=1 E1=0 Repeat=0 Device=0x10063
+19:11:10.572 [WM_INPUT] message arrived
+19:11:10.573 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:10.574 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:10.575 UP   VKey=0x28 MakeCode=0x50 E0=1 E1=0 Repeat=0 Device=0x10063
+17:58:02.357 [CTOR] RawInputForm constructed
+17:58:02.381 [HANDLE] Created. Handle=0x1090EF4
+17:58:02.383 [RAW] RegisterRawInputDevices OK
+17:58:02.385 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+17:58:02.596 [DB] Opened OK session_id=4
+17:58:02.597 [DB] File exists? True
+17:58:07.117 [WM_INPUT] message arrived
+17:58:07.119 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:07.120 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:07.122 DOWN VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:07.221 [WM_INPUT] message arrived
+17:58:07.222 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:07.223 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:07.224 UP   VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:10.711 [WM_INPUT] message arrived
+17:58:10.713 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:10.714 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:10.715 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:22.071 [WM_INPUT] message arrived
+17:58:22.073 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:22.074 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:22.075 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:22.580 [WM_INPUT] message arrived
+17:58:22.582 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:22.583 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:22.584 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:22.596 [WM_INPUT] message arrived
+17:58:22.598 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:22.599 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:22.600 DOWN VKey=0x28 MakeCode=0x50 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:22.676 [WM_INPUT] message arrived
+17:58:22.678 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:22.679 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:22.680 UP   VKey=0x28 MakeCode=0x50 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:23.229 [WM_INPUT] message arrived
+17:58:23.231 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:23.232 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:23.233 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:32.553 [WM_INPUT] message arrived
+17:58:32.554 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:32.555 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:32.556 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:33.065 [WM_INPUT] message arrived
+17:58:33.066 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.068 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.069 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.095 [WM_INPUT] message arrived
+17:58:33.096 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.098 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.099 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.125 [WM_INPUT] message arrived
+17:58:33.126 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.127 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.128 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.155 [WM_INPUT] message arrived
+17:58:33.156 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.157 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.158 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.185 [WM_INPUT] message arrived
+17:58:33.187 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.188 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.189 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.231 [WM_INPUT] message arrived
+17:58:33.233 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.234 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.235 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.262 [WM_INPUT] message arrived
+17:58:33.263 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.264 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.265 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.292 [WM_INPUT] message arrived
+17:58:33.294 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.295 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.297 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.323 [WM_INPUT] message arrived
+17:58:33.324 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.325 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.326 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.353 [WM_INPUT] message arrived
+17:58:33.354 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.355 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.356 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.383 [WM_INPUT] message arrived
+17:58:33.385 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.386 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.387 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.429 [WM_INPUT] message arrived
+17:58:33.430 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.431 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.432 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.459 [WM_INPUT] message arrived
+17:58:33.461 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.462 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.463 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.490 [WM_INPUT] message arrived
+17:58:33.491 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.492 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.493 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.521 [WM_INPUT] message arrived
+17:58:33.522 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.523 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.524 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.551 [WM_INPUT] message arrived
+17:58:33.552 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.554 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.555 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.581 [WM_INPUT] message arrived
+17:58:33.582 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.583 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.584 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.626 [WM_INPUT] message arrived
+17:58:33.628 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.629 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.630 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.657 [WM_INPUT] message arrived
+17:58:33.658 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.659 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.661 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.687 [WM_INPUT] message arrived
+17:58:33.688 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.689 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.691 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.717 [WM_INPUT] message arrived
+17:58:33.719 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.720 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.721 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.748 [WM_INPUT] message arrived
+17:58:33.749 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.750 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.751 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.793 [WM_INPUT] message arrived
+17:58:33.794 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.795 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.797 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.823 [WM_INPUT] message arrived
+17:58:33.825 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.826 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.827 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.854 [WM_INPUT] message arrived
+17:58:33.855 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.857 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.858 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.885 [WM_INPUT] message arrived
+17:58:33.886 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.887 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.888 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.915 [WM_INPUT] message arrived
+17:58:33.917 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.918 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.919 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:33.932 [WM_INPUT] message arrived
+17:58:33.933 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:33.934 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:33.935 DOWN VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:34.023 [WM_INPUT] message arrived
+17:58:34.024 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:34.025 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:34.027 UP   VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:34.340 [WM_INPUT] message arrived
+17:58:34.341 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:34.342 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:34.343 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:40.835 [WM_INPUT] message arrived
+17:58:40.836 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:40.838 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:40.839 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:40.905 [WM_INPUT] message arrived
+17:58:40.906 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:40.907 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:40.908 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:41.018 [WM_INPUT] message arrived
+17:58:41.019 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:41.021 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:41.022 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:41.025 [WM_INPUT] message arrived
+17:58:41.026 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:41.027 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:41.028 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:45.449 [WM_INPUT] message arrived
+17:58:45.450 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:45.451 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:45.453 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:45.519 [WM_INPUT] message arrived
+17:58:45.520 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:45.521 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:45.522 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:45.634 [WM_INPUT] message arrived
+17:58:45.635 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:45.637 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:45.638 DOWN VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:45.699 [WM_INPUT] message arrived
+17:58:45.700 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:45.702 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:45.703 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:45.706 [WM_INPUT] message arrived
+17:58:45.707 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:45.708 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:45.709 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:45.749 [WM_INPUT] message arrived
+17:58:45.750 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:45.751 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:45.752 UP   VKey=0x26 MakeCode=0x48 E0=1 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:49.809 [WM_INPUT] message arrived
+17:58:49.810 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:49.811 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:49.813 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:49.928 [WM_INPUT] message arrived
+17:58:49.929 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:49.931 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:49.932 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:50.023 [WM_INPUT] message arrived
+17:58:50.025 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:50.026 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:50.027 DOWN VKey=0x12 MakeCode=0x38 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:50.525 [WM_INPUT] message arrived
+17:58:50.527 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:50.528 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:50.529 DOWN VKey=0x12 MakeCode=0x38 E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:50.556 [WM_INPUT] message arrived
+17:58:50.557 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:50.558 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:50.559 DOWN VKey=0x12 MakeCode=0x38 E0=0 E1=0 Repeat=1 Device=0x10063 Mods=0
+17:58:50.573 [WM_INPUT] message arrived
+17:58:50.574 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:50.575 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:50.576 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:50.591 [WM_INPUT] message arrived
+17:58:50.592 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:50.593 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:50.594 UP   VKey=0x12 MakeCode=0x38 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+17:58:50.606 [WM_INPUT] message arrived
+17:58:50.607 [WM_INPUT] sizeQuery res=0x0 size=40
+17:58:50.609 [WM_INPUT] dataQuery res=40 expectedSize=40
+17:58:50.610 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:04:14.658 [CTOR] RawInputForm constructed
+18:04:14.678 [HANDLE] Created. Handle=0x2950998
+18:04:14.680 [RAW] RegisterRawInputDevices OK
+18:04:14.681 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+18:04:14.723 [DB] Opened OK session_id=5
+18:04:14.724 [DB] File exists? True
+18:04:21.681 [WM_INPUT] message arrived
+18:04:21.683 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:21.684 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:21.685 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1
+18:04:22.187 [WM_INPUT] message arrived
+18:04:22.189 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.190 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.191 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.218 [WM_INPUT] message arrived
+18:04:22.219 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.220 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.221 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.248 [WM_INPUT] message arrived
+18:04:22.250 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.251 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.251 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.294 [WM_INPUT] message arrived
+18:04:22.296 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.297 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.298 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.325 [WM_INPUT] message arrived
+18:04:22.326 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.327 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.328 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.355 [WM_INPUT] message arrived
+18:04:22.357 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.358 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.359 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.386 [WM_INPUT] message arrived
+18:04:22.387 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.389 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.390 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.416 [WM_INPUT] message arrived
+18:04:22.418 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.419 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.420 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.447 [WM_INPUT] message arrived
+18:04:22.448 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.449 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.450 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.492 [WM_INPUT] message arrived
+18:04:22.494 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.495 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.496 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.524 [WM_INPUT] message arrived
+18:04:22.525 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.526 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.527 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.554 [WM_INPUT] message arrived
+18:04:22.556 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.557 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.558 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.585 [WM_INPUT] message arrived
+18:04:22.587 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.588 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.589 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.616 [WM_INPUT] message arrived
+18:04:22.617 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.618 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.619 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.645 [WM_INPUT] message arrived
+18:04:22.647 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.648 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.649 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.691 [WM_INPUT] message arrived
+18:04:22.692 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.694 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.695 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.722 [WM_INPUT] message arrived
+18:04:22.723 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.725 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.726 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.752 [WM_INPUT] message arrived
+18:04:22.753 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.755 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.756 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.783 [WM_INPUT] message arrived
+18:04:22.784 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.785 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.786 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.813 [WM_INPUT] message arrived
+18:04:22.814 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.816 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.817 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.844 [WM_INPUT] message arrived
+18:04:22.845 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.847 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.848 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.889 [WM_INPUT] message arrived
+18:04:22.890 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.892 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.893 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.920 [WM_INPUT] message arrived
+18:04:22.921 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.922 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.923 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.949 [WM_INPUT] message arrived
+18:04:22.951 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.952 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.953 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:22.980 [WM_INPUT] message arrived
+18:04:22.981 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:22.982 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:22.984 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:23.010 [WM_INPUT] message arrived
+18:04:23.012 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.013 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.014 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:23.041 [WM_INPUT] message arrived
+18:04:23.042 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.044 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.045 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:23.087 [WM_INPUT] message arrived
+18:04:23.088 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.089 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.090 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:23.117 [WM_INPUT] message arrived
+18:04:23.118 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.119 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.120 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1
+18:04:23.147 [WM_INPUT] message arrived
+18:04:23.148 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.149 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.150 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=3
+18:04:23.651 [WM_INPUT] message arrived
+18:04:23.652 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.653 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.654 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.682 [WM_INPUT] message arrived
+18:04:23.683 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.684 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.685 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.727 [WM_INPUT] message arrived
+18:04:23.729 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.729 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.730 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.758 [WM_INPUT] message arrived
+18:04:23.759 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.760 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.761 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.789 [WM_INPUT] message arrived
+18:04:23.790 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.791 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.792 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.819 [WM_INPUT] message arrived
+18:04:23.820 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.821 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.822 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.850 [WM_INPUT] message arrived
+18:04:23.851 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.852 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.853 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.880 [WM_INPUT] message arrived
+18:04:23.881 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.882 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.883 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.911 [WM_INPUT] message arrived
+18:04:23.912 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.913 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.913 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.957 [WM_INPUT] message arrived
+18:04:23.958 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.959 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.960 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:23.987 [WM_INPUT] message arrived
+18:04:23.988 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:23.989 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:23.990 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.018 [WM_INPUT] message arrived
+18:04:24.019 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.020 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.020 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.049 [WM_INPUT] message arrived
+18:04:24.050 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.051 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.052 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.079 [WM_INPUT] message arrived
+18:04:24.080 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.081 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.082 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.110 [WM_INPUT] message arrived
+18:04:24.111 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.112 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.113 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.156 [WM_INPUT] message arrived
+18:04:24.157 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.158 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.159 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.186 [WM_INPUT] message arrived
+18:04:24.187 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.188 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.189 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.216 [WM_INPUT] message arrived
+18:04:24.217 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.218 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.219 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.247 [WM_INPUT] message arrived
+18:04:24.248 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.249 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.250 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.263 [WM_INPUT] message arrived
+18:04:24.264 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.265 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.266 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=3
+18:04:24.770 [WM_INPUT] message arrived
+18:04:24.771 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.772 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.773 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.800 [WM_INPUT] message arrived
+18:04:24.801 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.802 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.803 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.830 [WM_INPUT] message arrived
+18:04:24.831 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.832 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.833 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.876 [WM_INPUT] message arrived
+18:04:24.877 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.878 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.879 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.907 [WM_INPUT] message arrived
+18:04:24.908 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.909 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.910 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.937 [WM_INPUT] message arrived
+18:04:24.938 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.939 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.940 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=3
+18:04:24.952 [WM_INPUT] message arrived
+18:04:24.953 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.954 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.955 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2
+18:04:24.965 [WM_INPUT] message arrived
+18:04:24.966 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.967 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.967 UP   VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2
+18:04:24.976 [WM_INPUT] message arrived
+18:04:24.977 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:24.977 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:24.978 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:04:27.194 [WM_INPUT] message arrived
+18:04:27.195 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:27.196 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:27.197 DOWN VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:04:27.289 [WM_INPUT] message arrived
+18:04:27.290 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:27.291 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:27.292 UP   VKey=0x14 MakeCode=0x3A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:04:28.823 [WM_INPUT] message arrived
+18:04:28.824 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:28.825 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:28.826 DOWN VKey=0x12 MakeCode=0x38 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=4
+18:04:28.966 [WM_INPUT] message arrived
+18:04:28.967 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:28.968 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:28.969 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=6
+18:04:29.126 [WM_INPUT] message arrived
+18:04:29.127 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:29.128 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:29.129 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=7
+18:04:29.336 [WM_INPUT] message arrived
+18:04:29.337 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:29.339 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:29.340 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=6
+18:04:29.376 [WM_INPUT] message arrived
+18:04:29.377 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:29.378 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:29.379 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=4
+18:04:29.406 [WM_INPUT] message arrived
+18:04:29.407 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:29.408 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:29.409 UP   VKey=0x12 MakeCode=0x38 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:04:42.076 [WM_INPUT] message arrived
+18:04:42.078 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:42.079 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:42.080 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2
+18:04:42.203 [WM_INPUT] message arrived
+18:04:42.204 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:42.205 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:42.206 DOWN VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2
+18:04:42.296 [WM_INPUT] message arrived
+18:04:42.297 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:42.299 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:42.299 UP   VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2
+18:04:42.303 [WM_INPUT] message arrived
+18:04:42.304 [WM_INPUT] sizeQuery res=0x0 size=40
+18:04:42.305 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:04:42.306 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:14:51.096 [CTOR] RawInputForm constructed
+18:14:51.115 [HANDLE] Created. Handle=0x16032C
+18:14:51.118 [RAW] RegisterRawInputDevices OK
+18:14:51.119 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+18:14:51.167 [DB] Opened OK session_id=1
+18:14:51.168 [DB] File exists? True
+18:14:54.952 [WM_INPUT] message arrived
+18:14:54.955 [WM_INPUT] sizeQuery res=0x0 size=40
+18:14:54.956 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:14:54.964 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2
+18:14:55.064 [WM_INPUT] message arrived
+18:14:55.066 [WM_INPUT] sizeQuery res=0x0 size=40
+18:14:55.067 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:14:55.069 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0
+18:15:33.444 [CTOR] RawInputForm constructed
+18:15:33.464 [HANDLE] Created. Handle=0x190F8A
+18:15:33.466 [RAW] RegisterRawInputDevices OK
+18:15:33.467 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+18:15:33.509 [DB] Opened OK session_id=2
+18:15:33.510 [DB] File exists? True
+18:15:36.209 [WM_INPUT] message arrived
+18:15:36.211 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:36.212 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:36.220 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 Application=devenv.exe
+18:15:36.329 [WM_INPUT] message arrived
+18:15:36.331 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:36.332 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:36.333 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 Application=devenv.exe
+18:15:39.517 [WM_INPUT] message arrived
+18:15:39.518 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:39.519 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:39.520 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 Application=opera.exe
+18:15:39.624 [WM_INPUT] message arrived
+18:15:39.625 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:39.626 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:39.628 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 Application=opera.exe
+18:15:46.997 [WM_INPUT] message arrived
+18:15:46.998 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:46.999 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:47.000 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 Application=devenv.exe
+18:15:47.051 [WM_INPUT] message arrived
+18:15:47.052 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:47.053 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:47.054 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 Application=devenv.exe
+18:15:57.248 [WM_INPUT] message arrived
+18:15:57.249 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:57.250 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:57.251 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 Application=devenv.exe
+18:15:57.360 [WM_INPUT] message arrived
+18:15:57.361 [WM_INPUT] sizeQuery res=0x0 size=40
+18:15:57.363 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:15:57.364 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 Application=devenv.exe
+18:16:04.978 [WM_INPUT] message arrived
+18:16:04.980 [WM_INPUT] sizeQuery res=0x0 size=40
+18:16:04.981 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:16:04.982 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 Application=devenv.exe
+18:16:05.165 [WM_INPUT] message arrived
+18:16:05.166 [WM_INPUT] sizeQuery res=0x0 size=40
+18:16:05.167 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:16:05.169 DOWN VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 Application=devenv.exe
+18:16:05.243 [WM_INPUT] message arrived
+18:16:05.244 [WM_INPUT] sizeQuery res=0x0 size=40
+18:16:05.245 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:16:05.246 UP   VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 Application=devenv.exe
+18:16:05.284 [WM_INPUT] message arrived
+18:16:05.285 [WM_INPUT] sizeQuery res=0x0 size=40
+18:16:05.286 [WM_INPUT] dataQuery res=40 expectedSize=40
+18:16:05.288 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 Application=devenv.exe
+19:08:51.715 [CTOR] RawInputForm constructed
+19:08:51.737 [HANDLE] Created. Handle=0x3C70FAA
+19:08:51.740 [RAW] RegisterRawInputDevices OK
+19:08:51.741 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+19:08:51.806 [DB] Opened OK session_id=3
+19:08:51.809 [DB] File exists? True
+19:08:53.027 [WM_INPUT] message arrived
+19:08:53.029 [WM_INPUT] sizeQuery res=0x0 size=40
+19:08:53.031 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:08:53.041 [DEV] device_id=1 name=屜尿䥈⍄䥖彄〱㠳倦䑉ㅟㄶ☸䥍た☰潃ぬ⌲☹ㄱ㄰晦愷〦〦〰⌱㡻㐸㥢挶ⴳ㘵晥ㄭ搱ⴱ换挸〭愰挰ㄹ〴搵絤
+19:08:53.043 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:10:11.827 [CTOR] RawInputForm constructed
+19:10:11.846 [HANDLE] Created. Handle=0x2610100
+19:10:11.848 [RAW] RegisterRawInputDevices OK
+19:10:11.849 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+19:10:11.895 [DB] Opened OK session_id=1
+19:10:11.896 [DB] File exists? True
+19:10:14.469 [WM_INPUT] message arrived
+19:10:14.471 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:14.473 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:14.483 [DEV] device_id=1 name=屜尿䥈⍄䥖彄〱㠳倦䑉ㅟㄶ☸䥍た☰潃ぬ⌲☹ㄱ㄰晦愷〦〦〰⌱㡻㐸㥢挶ⴳ㘵晥ㄭ搱ⴱ换挸〭愰挰ㄹ〴搵絤
+19:10:14.484 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:10:48.667 [CTOR] RawInputForm constructed
+19:10:48.686 [HANDLE] Created. Handle=0x1120F0E
+19:10:48.688 [RAW] RegisterRawInputDevices OK
+19:10:48.689 [DB] Path = C:\Users\Bryce\Desktop\Coding Projects\Keystroke Tracker\KeystrokeTracker.Input.Windows\bin\Debug\net10.0-windows\keystroke_tracker.sqlite
+19:10:48.727 [DB] Opened OK session_id=2
+19:10:48.728 [DB] File exists? True
+19:10:51.794 [WM_INPUT] message arrived
+19:10:51.796 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:51.797 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:51.806 [DEV] device_id=1 name=屜尿䥈⍄䥖彄〱㠳倦䑉ㅟㄶ☸䥍た☰潃ぬ⌲☹ㄱ㄰晦愷〦〦〰⌱㡻㐸㥢挶ⴳ㘵晥ㄭ搱ⴱ换挸〭愰挰ㄹ〴搵絤
+19:10:51.807 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:10:51.853 [WM_INPUT] message arrived
+19:10:51.854 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:51.855 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:51.857 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=devenv.exe DeviceId=1
+19:10:56.210 [WM_INPUT] message arrived
+19:10:56.212 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:56.213 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:56.213 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:10:56.316 [WM_INPUT] message arrived
+19:10:56.317 [WM_INPUT] sizeQuery res=0x0 size=40
+19:10:56.318 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:10:56.318 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=devenv.exe DeviceId=1
+19:11:08.977 [WM_INPUT] message arrived
+19:11:08.978 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:08.979 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:08.980 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:11:09.375 [WM_INPUT] message arrived
+19:11:09.376 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:09.377 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:09.379 DOWN VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:11:09.478 [WM_INPUT] message arrived
+19:11:09.479 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:09.480 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:09.481 UP   VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=devenv.exe DeviceId=1
+19:11:09.778 [WM_INPUT] message arrived
+19:11:09.779 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:09.780 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:09.781 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=devenv.exe DeviceId=1
+19:11:11.403 [WM_INPUT] message arrived
+19:11:11.404 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:11.405 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:11.406 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:11.904 [WM_INPUT] message arrived
+19:11:11.905 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:11.906 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:11.907 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:11.950 [WM_INPUT] message arrived
+19:11:11.952 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:11.953 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:11.954 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:11.981 [WM_INPUT] message arrived
+19:11:11.982 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:11.983 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:11.984 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.011 [WM_INPUT] message arrived
+19:11:12.012 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.014 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.015 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.041 [WM_INPUT] message arrived
+19:11:12.042 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.043 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.044 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.071 [WM_INPUT] message arrived
+19:11:12.072 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.073 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.074 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.096 [WM_INPUT] message arrived
+19:11:12.097 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.099 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.100 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.158 [WM_INPUT] message arrived
+19:11:12.159 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.160 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.162 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.247 [WM_INPUT] message arrived
+19:11:12.248 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.249 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.250 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:12.354 [WM_INPUT] message arrived
+19:11:12.355 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:12.356 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:12.357 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:13.518 [WM_INPUT] message arrived
+19:11:13.519 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:13.520 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:13.521 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:13.771 [WM_INPUT] message arrived
+19:11:13.772 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:13.773 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:13.775 DOWN VKey=0x41 MakeCode=0x1E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:13.891 [WM_INPUT] message arrived
+19:11:13.892 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:13.893 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:13.894 UP   VKey=0x41 MakeCode=0x1E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.007 [WM_INPUT] message arrived
+19:11:14.008 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.009 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.011 DOWN VKey=0x4E MakeCode=0x31 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.090 [WM_INPUT] message arrived
+19:11:14.091 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.093 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.094 UP   VKey=0x4E MakeCode=0x31 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.278 [WM_INPUT] message arrived
+19:11:14.279 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.280 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.282 DOWN VKey=0x44 MakeCode=0x20 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.353 [WM_INPUT] message arrived
+19:11:14.354 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.355 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.357 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.390 [WM_INPUT] message arrived
+19:11:14.391 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.392 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.394 UP   VKey=0x44 MakeCode=0x20 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.434 [WM_INPUT] message arrived
+19:11:14.435 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.436 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.437 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.887 [WM_INPUT] message arrived
+19:11:14.888 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.889 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.891 DOWN VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.955 [WM_INPUT] message arrived
+19:11:14.956 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.958 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.959 DOWN VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:14.988 [WM_INPUT] message arrived
+19:11:14.989 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:14.990 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:14.992 UP   VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.001 [WM_INPUT] message arrived
+19:11:15.002 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.003 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.005 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.048 [WM_INPUT] message arrived
+19:11:15.049 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.050 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.054 [DEV] device_id=2 name=屜尿䥈⍄䥖彄〱㠳倦䑉ㅟㄶ☸䥍た☰潃ぬ⌲☹ㄱ㄰晦愷〦〦〰⌱㡻㐸㥢挶ⴳ㘵晥ㄭ搱ⴱ换挸〭愰挰ㄹ〴搵絤嬀썞륈⮔톎翺
+19:11:15.055 UP   VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=2
+19:11:15.082 [WM_INPUT] message arrived
+19:11:15.083 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.084 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.088 [DEV] device_id=3 name=屜尿䥈⍄䥖彄〱㠳倦䑉ㅟㄶ☸䥍た☰潃ぬ⌲☹ㄱ㄰晦愷〦〦〰⌱㡻㐸㥢挶ⴳ㘵晥ㄭ搱ⴱ换挸〭愰挰ㄹ〴搵絤缀
+19:11:15.089 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=3
+19:11:15.178 [WM_INPUT] message arrived
+19:11:15.179 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.180 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.182 DOWN VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.244 [WM_INPUT] message arrived
+19:11:15.245 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.246 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.248 DOWN VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=3
+19:11:15.276 [WM_INPUT] message arrived
+19:11:15.277 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.278 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.279 UP   VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.310 [WM_INPUT] message arrived
+19:11:15.311 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.312 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.313 UP   VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.383 [WM_INPUT] message arrived
+19:11:15.384 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.385 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.387 DOWN VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.456 [WM_INPUT] message arrived
+19:11:15.457 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.458 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.460 UP   VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.549 [WM_INPUT] message arrived
+19:11:15.550 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.551 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.553 DOWN VKey=0x4B MakeCode=0x25 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.597 [WM_INPUT] message arrived
+19:11:15.598 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.600 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.601 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.644 [WM_INPUT] message arrived
+19:11:15.646 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.647 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.648 UP   VKey=0x4B MakeCode=0x25 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.659 [WM_INPUT] message arrived
+19:11:15.660 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.661 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.663 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.690 [WM_INPUT] message arrived
+19:11:15.692 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.693 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.695 DOWN VKey=0x41 MakeCode=0x1E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.774 [WM_INPUT] message arrived
+19:11:15.775 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.776 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.778 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.815 [WM_INPUT] message arrived
+19:11:15.816 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.818 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.819 UP   VKey=0x41 MakeCode=0x1E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.822 [WM_INPUT] message arrived
+19:11:15.824 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.825 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.825 DOWN VKey=0x4C MakeCode=0x26 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.877 [WM_INPUT] message arrived
+19:11:15.878 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.879 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.880 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.887 [WM_INPUT] message arrived
+19:11:15.888 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.889 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.890 UP   VKey=0x4C MakeCode=0x26 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:15.992 [WM_INPUT] message arrived
+19:11:15.993 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:15.995 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:15.996 DOWN VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.035 [WM_INPUT] message arrived
+19:11:16.037 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.038 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.040 DOWN VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.087 [WM_INPUT] message arrived
+19:11:16.088 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.089 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.090 UP   VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.095 [WM_INPUT] message arrived
+19:11:16.096 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.097 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.098 UP   VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.175 [WM_INPUT] message arrived
+19:11:16.176 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.177 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.178 DOWN VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.236 [WM_INPUT] message arrived
+19:11:16.237 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.238 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.239 UP   VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.269 [WM_INPUT] message arrived
+19:11:16.270 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.272 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.273 DOWN VKey=0x4C MakeCode=0x26 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.361 [WM_INPUT] message arrived
+19:11:16.362 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.363 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.364 DOWN VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.378 [WM_INPUT] message arrived
+19:11:16.379 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.380 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.396 UP   VKey=0x4C MakeCode=0x26 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=4
+19:11:16.407 [WM_INPUT] message arrived
+19:11:16.408 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.409 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.411 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.457 [WM_INPUT] message arrived
+19:11:16.458 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.460 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.461 UP   VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.490 [WM_INPUT] message arrived
+19:11:16.491 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.493 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.494 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.535 [WM_INPUT] message arrived
+19:11:16.536 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.537 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.539 DOWN VKey=0x44 MakeCode=0x20 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.601 [WM_INPUT] message arrived
+19:11:16.602 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.603 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.605 DOWN VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.634 [WM_INPUT] message arrived
+19:11:16.635 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.636 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.638 UP   VKey=0x44 MakeCode=0x20 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.687 [WM_INPUT] message arrived
+19:11:16.688 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.689 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.690 UP   VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.796 [WM_INPUT] message arrived
+19:11:16.797 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.798 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.800 DOWN VKey=0x42 MakeCode=0x30 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.877 [WM_INPUT] message arrived
+19:11:16.878 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.880 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.882 UP   VKey=0x42 MakeCode=0x30 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.884 [WM_INPUT] message arrived
+19:11:16.886 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.887 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.888 DOWN VKey=0x55 MakeCode=0x16 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.992 [WM_INPUT] message arrived
+19:11:16.993 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:16.995 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:16.996 UP   VKey=0x55 MakeCode=0x16 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:16.999 [WM_INPUT] message arrived
+19:11:17.000 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.001 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.003 DOWN VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.052 [WM_INPUT] message arrived
+19:11:17.053 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.054 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.056 UP   VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.139 [WM_INPUT] message arrived
+19:11:17.140 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.142 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.143 DOWN VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.199 [WM_INPUT] message arrived
+19:11:17.200 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.201 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.202 UP   VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.256 [WM_INPUT] message arrived
+19:11:17.257 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.258 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.260 DOWN VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.299 [WM_INPUT] message arrived
+19:11:17.300 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.301 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.303 DOWN VKey=0x4E MakeCode=0x31 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.324 [WM_INPUT] message arrived
+19:11:17.325 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.326 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.328 DOWN VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.372 [WM_INPUT] message arrived
+19:11:17.373 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.374 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.375 UP   VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.379 [WM_INPUT] message arrived
+19:11:17.380 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.381 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.382 UP   VKey=0x4E MakeCode=0x31 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:17.420 [WM_INPUT] message arrived
+19:11:17.424 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:17.428 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:17.431 UP   VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.226 [WM_INPUT] message arrived
+19:11:19.227 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.229 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.230 DOWN VKey=0xBC MakeCode=0x33 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.328 [WM_INPUT] message arrived
+19:11:19.329 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.330 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.332 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.342 [WM_INPUT] message arrived
+19:11:19.343 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.344 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.345 UP   VKey=0xBC MakeCode=0x33 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.416 [WM_INPUT] message arrived
+19:11:19.417 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.418 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.419 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.467 [WM_INPUT] message arrived
+19:11:19.469 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.470 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.473 DOWN VKey=0x42 MakeCode=0x30 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.537 [WM_INPUT] message arrived
+19:11:19.538 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.540 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.541 UP   VKey=0x42 MakeCode=0x30 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.590 [WM_INPUT] message arrived
+19:11:19.591 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.593 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.594 DOWN VKey=0x55 MakeCode=0x16 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.659 [WM_INPUT] message arrived
+19:11:19.660 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.661 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.663 UP   VKey=0x55 MakeCode=0x16 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.679 [WM_INPUT] message arrived
+19:11:19.680 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.682 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.683 DOWN VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.727 [WM_INPUT] message arrived
+19:11:19.728 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.730 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.731 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.776 [WM_INPUT] message arrived
+19:11:19.777 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.779 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.780 UP   VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.813 [WM_INPUT] message arrived
+19:11:19.814 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.815 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.817 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.822 [WM_INPUT] message arrived
+19:11:19.823 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.824 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.826 DOWN VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.871 [WM_INPUT] message arrived
+19:11:19.872 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.874 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.875 DOWN VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.930 [WM_INPUT] message arrived
+19:11:19.931 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.933 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.934 UP   VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:19.956 [WM_INPUT] message arrived
+19:11:19.957 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:19.959 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:19.960 UP   VKey=0x54 MakeCode=0x14 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.031 [WM_INPUT] message arrived
+19:11:20.032 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.034 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.036 DOWN VKey=0x53 MakeCode=0x1F E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.088 [WM_INPUT] message arrived
+19:11:20.089 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.091 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.092 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.120 [WM_INPUT] message arrived
+19:11:20.121 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.123 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.124 UP   VKey=0x53 MakeCode=0x1F E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.166 [WM_INPUT] message arrived
+19:11:20.167 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.169 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.170 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.223 [WM_INPUT] message arrived
+19:11:20.224 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.225 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.227 DOWN VKey=0x57 MakeCode=0x11 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.267 [WM_INPUT] message arrived
+19:11:20.268 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.269 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.270 DOWN VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.325 [WM_INPUT] message arrived
+19:11:20.326 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.327 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.328 UP   VKey=0x57 MakeCode=0x11 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.358 [WM_INPUT] message arrived
+19:11:20.359 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.360 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.361 UP   VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.364 [WM_INPUT] message arrived
+19:11:20.365 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.366 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.369 [DEV] device_id=5 name=屜尿䥈⍄䥖彄〱㠳倦䑉ㅟㄶ☸䥍た☰潃ぬ⌲☹ㄱ㄰晦愷〦〦〰⌱㡻㐸㥢挶ⴳ㘵晥ㄭ搱ⴱ换挸〭愰挰ㄹ〴搵絤䌀롈ヹ翻
+19:11:20.370 DOWN VKey=0x52 MakeCode=0x13 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=5
+19:11:20.451 [WM_INPUT] message arrived
+19:11:20.452 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.453 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.455 UP   VKey=0x52 MakeCode=0x13 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.462 [WM_INPUT] message arrived
+19:11:20.463 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.464 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.466 DOWN VKey=0x4B MakeCode=0x25 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.518 [WM_INPUT] message arrived
+19:11:20.519 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.520 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.522 UP   VKey=0x4B MakeCode=0x25 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.624 [WM_INPUT] message arrived
+19:11:20.625 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.627 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.628 DOWN VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.671 [WM_INPUT] message arrived
+19:11:20.672 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.674 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.675 DOWN VKey=0x4E MakeCode=0x31 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.729 [WM_INPUT] message arrived
+19:11:20.731 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.732 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.733 UP   VKey=0x49 MakeCode=0x17 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.736 [WM_INPUT] message arrived
+19:11:20.737 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.738 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.741 DOWN VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.812 [WM_INPUT] message arrived
+19:11:20.813 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.814 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.815 UP   VKey=0x4E MakeCode=0x31 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:20.852 [WM_INPUT] message arrived
+19:11:20.853 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:20.855 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:20.856 UP   VKey=0x47 MakeCode=0x22 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:21.019 [WM_INPUT] message arrived
+19:11:21.020 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:21.021 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:21.023 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:21.511 [WM_INPUT] message arrived
+19:11:21.512 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:21.514 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:21.515 DOWN VKey=0xBA MakeCode=0x27 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:21.611 [WM_INPUT] message arrived
+19:11:21.612 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:21.614 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:21.615 UP   VKey=0xBA MakeCode=0x27 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:21.777 [WM_INPUT] message arrived
+19:11:21.778 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:21.779 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:21.780 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:21.902 [WM_INPUT] message arrived
+19:11:21.903 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:21.904 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:21.906 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:22.202 [WM_INPUT] message arrived
+19:11:22.203 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:22.204 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:22.205 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:22.699 [WM_INPUT] message arrived
+19:11:22.700 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:22.701 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:22.702 DOWN VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=opera.exe DeviceId=1
+19:11:22.897 [WM_INPUT] message arrived
+19:11:22.898 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:22.899 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:22.901 DOWN VKey=0x56 MakeCode=0x2F E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=opera.exe DeviceId=1
+19:11:23.012 [WM_INPUT] message arrived
+19:11:23.014 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:23.015 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:23.016 UP   VKey=0x56 MakeCode=0x2F E0=0 E1=0 Repeat=0 Device=0x10063 Mods=2 App=opera.exe DeviceId=1
+19:11:23.022 [WM_INPUT] message arrived
+19:11:23.023 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:23.024 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:23.025 UP   VKey=0x11 MakeCode=0x1D E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:24.756 [WM_INPUT] message arrived
+19:11:24.757 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:24.758 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:24.759 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.261 [WM_INPUT] message arrived
+19:11:25.262 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.263 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.264 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.291 [WM_INPUT] message arrived
+19:11:25.293 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.294 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.295 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.322 [WM_INPUT] message arrived
+19:11:25.324 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.325 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.326 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.367 [WM_INPUT] message arrived
+19:11:25.369 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.370 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.371 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.397 [WM_INPUT] message arrived
+19:11:25.399 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.400 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.401 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.428 [WM_INPUT] message arrived
+19:11:25.429 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.431 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.432 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.458 [WM_INPUT] message arrived
+19:11:25.460 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.461 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.462 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.489 [WM_INPUT] message arrived
+19:11:25.491 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.492 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.493 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.535 [WM_INPUT] message arrived
+19:11:25.536 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.537 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.538 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.565 [WM_INPUT] message arrived
+19:11:25.566 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.567 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.568 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.595 [WM_INPUT] message arrived
+19:11:25.597 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.598 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.599 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.626 [WM_INPUT] message arrived
+19:11:25.627 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.629 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.630 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.657 [WM_INPUT] message arrived
+19:11:25.658 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.660 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.661 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.688 [WM_INPUT] message arrived
+19:11:25.689 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.690 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.692 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.718 [WM_INPUT] message arrived
+19:11:25.720 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.721 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.722 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.765 [WM_INPUT] message arrived
+19:11:25.766 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.767 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.768 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.795 [WM_INPUT] message arrived
+19:11:25.797 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.798 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.799 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.826 [WM_INPUT] message arrived
+19:11:25.828 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.829 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.830 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.856 [WM_INPUT] message arrived
+19:11:25.857 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.859 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.860 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.886 [WM_INPUT] message arrived
+19:11:25.888 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.889 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.890 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.916 [WM_INPUT] message arrived
+19:11:25.918 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.919 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.920 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.962 [WM_INPUT] message arrived
+19:11:25.964 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.965 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.966 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:25.993 [WM_INPUT] message arrived
+19:11:25.995 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:25.996 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:25.997 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.024 [WM_INPUT] message arrived
+19:11:26.026 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.027 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.028 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.055 [WM_INPUT] message arrived
+19:11:26.056 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.057 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.059 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.085 [WM_INPUT] message arrived
+19:11:26.087 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.088 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.089 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.116 [WM_INPUT] message arrived
+19:11:26.118 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.119 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.120 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.162 [WM_INPUT] message arrived
+19:11:26.164 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.165 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.166 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.193 [WM_INPUT] message arrived
+19:11:26.194 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.195 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.196 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.223 [WM_INPUT] message arrived
+19:11:26.225 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.226 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.227 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.254 [WM_INPUT] message arrived
+19:11:26.256 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.257 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.258 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.285 [WM_INPUT] message arrived
+19:11:26.286 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.287 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.288 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.316 [WM_INPUT] message arrived
+19:11:26.317 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.318 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.319 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=5
+19:11:26.346 [WM_INPUT] message arrived
+19:11:26.348 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.349 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.350 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.392 [WM_INPUT] message arrived
+19:11:26.394 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.395 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.396 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.423 [WM_INPUT] message arrived
+19:11:26.425 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.426 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.427 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.454 [WM_INPUT] message arrived
+19:11:26.456 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.457 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.458 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.485 [WM_INPUT] message arrived
+19:11:26.486 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.487 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.488 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.516 [WM_INPUT] message arrived
+19:11:26.517 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.518 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.520 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.545 [WM_INPUT] message arrived
+19:11:26.547 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.548 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.549 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=1 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.562 [WM_INPUT] message arrived
+19:11:26.563 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.565 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.566 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.661 [WM_INPUT] message arrived
+19:11:26.662 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.664 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.665 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.756 [WM_INPUT] message arrived
+19:11:26.758 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.759 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.760 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:26.885 [WM_INPUT] message arrived
+19:11:26.886 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:26.887 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:26.889 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:28.114 [WM_INPUT] message arrived
+19:11:28.115 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.116 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.117 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.349 [WM_INPUT] message arrived
+19:11:28.350 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.351 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.352 DOWN VKey=0x48 MakeCode=0x23 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.468 [WM_INPUT] message arrived
+19:11:28.468 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.469 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.471 UP   VKey=0x48 MakeCode=0x23 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.484 [WM_INPUT] message arrived
+19:11:28.485 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.486 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.487 DOWN VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.563 [WM_INPUT] message arrived
+19:11:28.564 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.565 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.566 UP   VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.608 [WM_INPUT] message arrived
+19:11:28.609 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.610 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.611 DOWN VKey=0x52 MakeCode=0x13 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.657 [WM_INPUT] message arrived
+19:11:28.658 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.659 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.660 DOWN VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.714 [WM_INPUT] message arrived
+19:11:28.715 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.716 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.717 UP   VKey=0x52 MakeCode=0x13 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.723 [WM_INPUT] message arrived
+19:11:28.724 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.725 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.726 UP   VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.822 [WM_INPUT] message arrived
+19:11:28.823 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.825 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.826 DOWN VKey=0x53 MakeCode=0x1F E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.888 [WM_INPUT] message arrived
+19:11:28.889 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.890 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.891 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.929 [WM_INPUT] message arrived
+19:11:28.930 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.931 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.932 UP   VKey=0x53 MakeCode=0x1F E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.941 [WM_INPUT] message arrived
+19:11:28.942 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.943 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.944 DOWN VKey=0x4D MakeCode=0x32 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:28.981 [WM_INPUT] message arrived
+19:11:28.982 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:28.983 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:28.984 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.046 [WM_INPUT] message arrived
+19:11:29.047 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.048 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.049 UP   VKey=0x4D MakeCode=0x32 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.243 [WM_INPUT] message arrived
+19:11:29.244 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.245 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.246 DOWN VKey=0x59 MakeCode=0x15 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.315 [WM_INPUT] message arrived
+19:11:29.316 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.317 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.318 DOWN VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.321 [WM_INPUT] message arrived
+19:11:29.322 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.322 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.323 UP   VKey=0x59 MakeCode=0x15 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.405 [WM_INPUT] message arrived
+19:11:29.406 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.407 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.408 UP   VKey=0x20 MakeCode=0x39 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.483 [WM_INPUT] message arrived
+19:11:29.484 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.485 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.486 DOWN VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=5
+19:11:29.540 [WM_INPUT] message arrived
+19:11:29.541 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.542 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.543 UP   VKey=0x43 MakeCode=0x2E E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.546 [WM_INPUT] message arrived
+19:11:29.547 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.548 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.549 DOWN VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.619 [WM_INPUT] message arrived
+19:11:29.620 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.621 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.622 UP   VKey=0x4F MakeCode=0x18 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.641 [WM_INPUT] message arrived
+19:11:29.642 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.643 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.644 DOWN VKey=0x44 MakeCode=0x20 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.685 [WM_INPUT] message arrived
+19:11:29.686 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.687 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.689 DOWN VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.738 [WM_INPUT] message arrived
+19:11:29.739 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.740 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.741 UP   VKey=0x44 MakeCode=0x20 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1
+19:11:29.772 [WM_INPUT] message arrived
+19:11:29.773 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.774 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.775 DOWN VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:29.790 [WM_INPUT] message arrived
+19:11:29.791 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.792 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.793 UP   VKey=0x45 MakeCode=0x12 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:29.877 [WM_INPUT] message arrived
+19:11:29.878 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.879 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.880 DOWN VKey=0xBA MakeCode=0x27 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:29.960 [WM_INPUT] message arrived
+19:11:29.961 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:29.962 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:29.963 UP   VKey=0xBA MakeCode=0x27 E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:30.092 [WM_INPUT] message arrived
+19:11:30.093 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:30.094 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:30.095 DOWN VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:30.185 [WM_INPUT] message arrived
+19:11:30.186 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:30.187 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:30.188 UP   VKey=0xD MakeCode=0x1C E0=0 E1=0 Repeat=0 Device=0x10063 Mods=1 App=opera.exe DeviceId=1
+19:11:30.632 [WM_INPUT] message arrived
+19:11:30.633 [WM_INPUT] sizeQuery res=0x0 size=40
+19:11:30.634 [WM_INPUT] dataQuery res=40 expectedSize=40
+19:11:30.635 UP   VKey=0x10 MakeCode=0x2A E0=0 E1=0 Repeat=0 Device=0x10063 Mods=0 App=opera.exe DeviceId=1

@@ -47,6 +47,9 @@ namespace KeystrokeTracker.Input.Windows
 
         private int _modifiersMask = 0;
 
+        private const uint RIDI_DEVICENAME = 0x20000007;
+        private readonly Dictionary<string, long> _deviceIdCache = new();
+
         public RawInputForm()
         {
             Text = "KeystrokeTracker (hidden)";
@@ -98,11 +101,18 @@ namespace KeystrokeTracker.Input.Windows
                   session_id        INTEGER PRIMARY KEY,
                   started_utc_us    INTEGER NOT NULL
                 );
+                
+                CREATE TABLE IF NOT EXISTS devices (
+                  device_id    INTEGER PRIMARY KEY,
+                  device_name  TEXT NOT NULL UNIQUE
+                );
 
                 CREATE TABLE IF NOT EXISTS key_events (
                   event_id          INTEGER PRIMARY KEY,
                   session_id        INTEGER NOT NULL,
                   timestamp_utc_us  INTEGER NOT NULL,
+                
+                  device_id         INTEGER NOT NULL,
 
                   event_type        INTEGER NOT NULL,  -- 1=down, 2=up
                   vkey              INTEGER,
@@ -111,9 +121,12 @@ namespace KeystrokeTracker.Input.Windows
                   e1                INTEGER NOT NULL DEFAULT 0,
                   modifiers_mask    INTEGER NOT NULL DEFAULT 0,
                   is_repeat         INTEGER NOT NULL DEFAULT 0,
+                  foreground_exe    TEXT,
 
-                  FOREIGN KEY(session_id) REFERENCES sessions(session_id)
+                  FOREIGN KEY(session_id) REFERENCES sessions(session_id),
+                  FOREIGN KEY(device_id) REFERENCES devices(device_id)
                 );
+                
                 """;
                 cmd.ExecuteNonQuery();
             }
@@ -211,9 +224,6 @@ namespace KeystrokeTracker.Input.Windows
                         int e0i = e0 ? 1 : 0;
                         int e1i = e1 ? 1 : 0;
 
-                        // Update modifiers mask
-                        UpdateModifiersMask(vkey, makeCode, e0, isUp);
-
                         // Repeat detection: a DOWN is repeat if key is already down
                         bool isRepeat = false;
                         var keyId = PhysicalKeyId(makeCode, e0i, e1i);
@@ -228,12 +238,22 @@ namespace KeystrokeTracker.Input.Windows
                             _downKeys.Remove(keyId);
                         }
 
+                        // Update modifiers mask
+                        UpdateModifiersMask(vkey, makeCode, e0, isUp);
+
+                        // Get the foreground exe
+                        var fgExe = GetForegroundExe();
+
+                        // Get device name + device_id
+                        string deviceName = GetDeviceNameOrFallback(header.hDevice);
+                        long deviceId = GetOrCreateDeviceId(deviceName);
+
                         // Log the event (Debug output + kt_debug.log)
                         Log(
                             $"{(isUp ? "UP  " : "DOWN")} " +
                             $"VKey=0x{vkey:X} MakeCode=0x{makeCode:X} E0={e0i} E1={e1i} " +
                             $"Repeat={(isRepeat ? 1 : 0)} Device=0x{header.hDevice.ToInt64():X} " +
-                            $"Mods={_modifiersMask}"
+                            $"Mods={_modifiersMask} App={fgExe} DeviceId={deviceId}"
                         );
 
                         // Insert into SQLite
@@ -243,11 +263,11 @@ namespace KeystrokeTracker.Input.Windows
                             cmd.CommandText = """
                             INSERT INTO key_events (
                               session_id, timestamp_utc_us,
-                              event_type, vkey, make_code, e0, e1, modifiers_mask, is_repeat
+                              event_type, vkey, make_code, e0, e1, modifiers_mask, is_repeat, foreground_exe, device_id
                             )
                             VALUES (
                               $session_id, $timestamp_utc_us,
-                              $event_type, $vkey, $make_code, $e0, $e1, $modifiers_mask, $is_repeat
+                              $event_type, $vkey, $make_code, $e0, $e1, $modifiers_mask, $is_repeat, $foreground_exe, $device_id
                             );
                             """;
 
@@ -260,6 +280,8 @@ namespace KeystrokeTracker.Input.Windows
                             cmd.Parameters.AddWithValue("$e1", e1i);
                             cmd.Parameters.AddWithValue("$modifiers_mask", _modifiersMask);
                             cmd.Parameters.AddWithValue("$is_repeat", isRepeat ? 1 : 0);
+                            cmd.Parameters.AddWithValue("$foreground_exe", (object?)fgExe ?? DBNull.Value);
+                            cmd.Parameters.AddWithValue("$device_id", deviceId);
 
                             cmd.ExecuteNonQuery();
                         }
@@ -315,6 +337,81 @@ namespace KeystrokeTracker.Input.Windows
                 _modifiersMask = isDown ? (_modifiersMask | MOD_WIN) : (_modifiersMask & ~MOD_WIN);
                 return;
             }
+        }
+
+        private static string? GetForegroundExe()
+        {
+            try
+            {
+                IntPtr hwnd = GetForegroundWindow();
+                if (hwnd == IntPtr.Zero) return null;
+
+                _ = GetWindowThreadProcessId(hwnd, out uint pid);
+                if (pid == 0) return null;
+
+                using var p = System.Diagnostics.Process.GetProcessById((int)pid);
+                return p.ProcessName + ".exe";
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        private static string GetDeviceNameOrFallback(IntPtr hDevice)
+        {
+            uint size = 0;
+            uint r1 = GetRawInputDeviceInfo(hDevice, RIDI_DEVICENAME, IntPtr.Zero, ref size);
+            if (r1 == 0xFFFFFFFF || size == 0)
+                return $"hDevice=0x{hDevice.ToInt64():X}";
+
+            IntPtr buf = Marshal.AllocHGlobal((int)size);
+            try
+            {
+                uint r2 = GetRawInputDeviceInfo(hDevice, RIDI_DEVICENAME, buf, ref size);
+                if (r2 == 0xFFFFFFFF)
+                    return $"hDevice=0x{hDevice.ToInt64():X}";
+
+                // Device name is a null-terminated Unicode string
+                return Marshal.PtrToStringUni(buf) ?? $"hDevice=0x{hDevice.ToInt64():X}";
+            }
+            finally
+            {
+                Marshal.FreeHGlobal(buf);
+            }
+        }
+
+        private long GetOrCreateDeviceId(string deviceName)
+        {
+            if (_db == null) return 0;
+
+            if (_deviceIdCache.TryGetValue(deviceName, out var id))
+                return id;
+
+            // Insert if missing
+            using (var cmd = _db.CreateCommand())
+            {
+                cmd.CommandText = """
+                INSERT OR IGNORE INTO devices (device_name)
+                VALUES ($name);
+                """;
+                cmd.Parameters.AddWithValue("$name", deviceName);
+                cmd.ExecuteNonQuery();
+            }
+
+            // Fetch id
+            using (var cmd = _db.CreateCommand())
+            {
+                cmd.CommandText = """
+                SELECT device_id FROM devices WHERE device_name = $name;
+                """;
+                cmd.Parameters.AddWithValue("$name", deviceName);
+                id = (long)cmd.ExecuteScalar()!;
+            }
+
+            _deviceIdCache[deviceName] = id;
+            Log($"[DEV] device_id={id} name={deviceName}");
+            return id;
         }
 
         private static void Log(string msg)
@@ -379,5 +476,18 @@ namespace KeystrokeTracker.Input.Windows
             IntPtr pData,
             ref uint pcbSize,
             uint cbSizeHeader);
+
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetForegroundWindow();
+
+        [DllImport("user32.dll")]
+        private static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint lpdwProcessId);
+
+        [DllImport("User32.dll", SetLastError = true)]
+        private static extern uint GetRawInputDeviceInfo(
+            IntPtr hDevice,
+            uint uiCommand,
+            IntPtr pData,
+            ref uint pcbSize);
     }
 }
